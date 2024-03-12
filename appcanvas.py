@@ -6,7 +6,7 @@ from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
 # Load the trained model
-model = keras.models.load_model("model (1).h5")
+model = keras.models.load_model("model.h5")
 
 
 # Get class names from the output layer
